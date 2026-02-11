@@ -37,7 +37,7 @@ export const projects = [
   {
     title: 'Kanban Board',
     description:
-      'React Kanban board with drag-and-drop, subtasks, image attachments, and localStorage persistence.',
+      'React Kanban board with drag-and-drop, subtasks, image attachments, and localStorage persistence. Click to try it out live.',
     tech: ['React', 'JavaScript', 'CSS', 'HTML'],
     features: ['Drag & drop', 'Subtasks', 'Image attachments'],
     github: 'https://github.com/lovro-git/KanbanBoard',
@@ -47,7 +47,7 @@ export const projects = [
   {
     title: 'Weather Dashboard',
     description:
-      'React weather dashboard with forecasts, hourly charts, and air quality data via OpenWeatherMap API.',
+      'React weather dashboard with forecasts, hourly charts, and air quality data via OpenWeatherMap API. Click to try it out live.',
     tech: ['React', 'JavaScript', 'CSS', 'OpenWeather API'],
     features: ['Hourly charts', 'Air quality data', '5-day forecast'],
     github: 'https://github.com/lovro-git/weather-dashboard',
@@ -74,6 +74,11 @@ export const projects = [
     tech: ['React Native', 'JavaScript', 'Node.js', 'REST API'],
     features: ['Mobile-first', 'Full-stack', 'Thesis project'],
     github: 'https://github.com/lovro-git/EquipmentRental',
+    phoneScreenshots: [
+      '/images/rental/home.png',
+      '/images/rental/details.png',
+      '/images/rental/equipment.png',
+    ],
   },
   {
     title: 'Time Tracker',

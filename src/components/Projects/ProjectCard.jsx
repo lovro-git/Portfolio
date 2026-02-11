@@ -81,6 +81,18 @@ export default function ProjectCard({ project, featured }) {
             </svg>
           </h3>
           <div className={styles.headerLinks}>
+            {project.demo && (
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.liveBadge}
+                onClick={(e) => e.stopPropagation()}
+              >
+                <span className={styles.liveDot} />
+                Live Demo
+              </a>
+            )}
             <a
               href={project.github}
               target="_blank"
