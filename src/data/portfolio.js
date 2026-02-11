@@ -5,6 +5,7 @@ export const personalInfo = {
   email: 'popovic.lovro01@gmail.com',
   location: 'Rijeka, Croatia',
   github: 'https://github.com/lovro-git',
+  linkedin: 'https://www.linkedin.com/in/lovro-popovi%C4%87-2a39a2303/',
 };
 
 export const about = [
