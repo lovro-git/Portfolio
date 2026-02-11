@@ -8,9 +8,9 @@ export const personalInfo = {
 };
 
 export const about = [
-  "I'm a software developer with a Bachelor's in Computer Science from the University of Rijeka. I work across web and mobile — building React apps on the frontend, React Native apps with Expo for iOS and Android, and Node.js services on the backend. At my last job I shipped real-time features like WebSocket chat, GPS vehicle tracking, and notification systems for an enterprise platform used across web and mobile.",
+  "I'm a software developer with a Bachelor's in Computer Science from the University of Rijeka. I work across web and mobile, building React apps on the frontend, React Native apps with Expo for iOS and Android, and Node.js services on the backend. At my last job I shipped real-time features like WebSocket chat, GPS vehicle tracking, and notification systems for an enterprise platform used across web and mobile.",
   "During university I spent time on competitive programming through Codeforces, working through problems in graph theory, dynamic programming, and data structures. For my thesis I built a full-stack mobile app for university equipment rental with React Native, Node.js, and PostgreSQL, including AAI@EduHr authentication and role-based access control.",
-  "I develop on Arch Linux, enjoy working in the terminal, and care about writing clean, well-structured code. I'm always picking up new tools and techniques — whether that's learning a new state management approach, setting up a CI pipeline, or figuring out how to make an animation feel right.",
+  "I develop on Arch Linux, enjoy working in the terminal, and care about writing clean, well-structured code. I'm always picking up new tools and techniques, whether that's learning a new state management approach, setting up a CI pipeline, or figuring out how to make an animation feel right.",
 ];
 
 export const experience = [
