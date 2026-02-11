@@ -1,16 +1,16 @@
 export const personalInfo = {
   name: 'Lovro Popovic',
   title: 'Software Developer',
-  tagline: 'Building clean, performant web applications with modern technologies. Explore my projects and try them out live.',
+  tagline: 'Building clean, performant web and mobile applications with modern technologies. Explore my projects and try them out live.',
   email: 'popovic.lovro01@gmail.com',
   location: 'Rijeka, Croatia',
   github: 'https://github.com/lovro-git',
 };
 
 export const about = [
-  "I'm a software developer with a Bachelor's degree in Computer Science from the University of Rijeka. I specialize in building modern web applications using React and its surrounding ecosystem, from state management and routing to server-side rendering and API integration.",
-  'For my bachelor\'s thesis, I explored modern approaches to front-end development, diving deep into component architecture, performance optimization, and developer experience tooling that shapes how we build for the web today.',
-  "I'm passionate about writing clean, maintainable code and continuously expanding my skill set. Whether it's learning a new framework, contributing to open source, or tackling complex UI challenges, I thrive on solving problems through software.",
+  "I'm a software developer with a Bachelor's degree in Computer Science from the University of Rijeka. I build web and mobile applications with React and React Native — from responsive interfaces and state management to cross-platform apps and REST API integration.",
+  "During university I got into competitive programming on Codeforces, solving problems around graph theory, dynamic programming, and data structures. For my thesis, I explored modern front-end development, diving into component architecture, performance optimization, and developer tooling.",
+  "I enjoy working across the full stack and continuously picking up new tools. Whether it's shipping a mobile app, optimizing a web dashboard, or grinding through an algorithmic problem, I like building things that work well.",
 ];
 
 export const experience = [
@@ -28,7 +28,7 @@ export const experience = [
     company: 'University of Rijeka,Faculty of Informatics and Digital Technologies',
     period: '2020 - 2025',
     description:
-      'Studied core computer science fundamentals including algorithms, data structures, software engineering, and web technologies. Completed bachelor\'s thesis on modern front-end development practices.',
+      'Studied core computer science fundamentals including algorithms, data structures, software engineering, and web technologies. Practiced competitive programming on Codeforces, solving problems in graph theory, dynamic programming, and combinatorics. Completed bachelor\'s thesis on modern front-end development practices.',
   },
 ];
 
@@ -85,8 +85,9 @@ export const projects = [
 ];
 
 export const skills = {
-  Languages: ['JavaScript', 'TypeScript', 'Python', 'HTML', 'CSS', 'SQL'],
+  Languages: ['JavaScript', 'TypeScript', 'Python', 'C++', 'HTML', 'CSS', 'SQL'],
   Frontend: ['React', 'Next.js', 'Vite', 'Tailwind CSS', 'CSS Modules'],
+  Mobile: ['React Native', 'Expo', 'Cross-platform development'],
   Backend: ['Node.js', 'Express', 'REST APIs', 'GraphQL'],
   Databases: ['PostgreSQL', 'MongoDB', 'Redis', 'Prisma'],
   DevOps: ['Git', 'Docker', 'CI/CD', 'Linux', 'Nginx'],

@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { motion } from 'motion/react';
 import { personalInfo } from '../../data/portfolio';
+import ParticleNetwork from './ParticleNetwork';
 import styles from './Hero.module.css';
 
 const spring = { type: 'spring', stiffness: 80, damping: 20 };
@@ -18,8 +19,9 @@ const staggerItem = {
 const roles = [
   'Software Developer',
   'Frontend Developer',
+  'React Native Developer',
   'React Engineer',
-  'UI Developer',
+  'Mobile Developer',
   'Web Developer',
 ];
 
@@ -78,11 +80,11 @@ export default function Hero() {
 
   return (
     <section className={styles.hero} id="hero">
-      {/* Background orbs */}
+      {/* Background */}
+      <ParticleNetwork />
       <div className={`${styles.orb} ${styles.orbA}`} />
       <div className={`${styles.orb} ${styles.orbB}`} />
       <div className={`${styles.orb} ${styles.orbC}`} />
-      <div className={styles.dotGrid} />
 
       <div className={styles.content}>
         {/* Greeting */}
