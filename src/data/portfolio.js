@@ -8,19 +8,19 @@ export const personalInfo = {
 };
 
 export const about = [
-  "I'm a software developer with a Bachelor's degree in Computer Science from the University of Rijeka. I build web and mobile applications with React and React Native — from responsive interfaces and state management to cross-platform apps and REST API integration.",
-  "During university I got into competitive programming on Codeforces, solving problems around graph theory, dynamic programming, and data structures. For my thesis, I explored modern front-end development, diving into component architecture, performance optimization, and developer tooling.",
-  "I enjoy working across the full stack and continuously picking up new tools. Whether it's shipping a mobile app, optimizing a web dashboard, or grinding through an algorithmic problem, I like building things that work well.",
+  "I'm a software developer with a Bachelor's in Computer Science from the University of Rijeka. I work across web and mobile — building React apps on the frontend, React Native apps with Expo for iOS and Android, and Node.js services on the backend. At my last job I shipped real-time features like WebSocket chat, GPS vehicle tracking, and notification systems for an enterprise platform used across web and mobile.",
+  "During university I spent time on competitive programming through Codeforces, working through problems in graph theory, dynamic programming, and data structures. For my thesis I built a full-stack mobile app for university equipment rental with React Native, Node.js, and PostgreSQL, including AAI@EduHr authentication and role-based access control.",
+  "I develop on Arch Linux, enjoy working in the terminal, and care about writing clean, well-structured code. I'm always picking up new tools and techniques — whether that's learning a new state management approach, setting up a CI pipeline, or figuring out how to make an animation feel right.",
 ];
 
 export const experience = [
   {
     type: 'work',
-    role: 'Software Developer',
+    role: 'Software Developer / Web Developer',
     company: 'IT Consulting Services (ITCS)',
-    period: '2023 - Nov 2025',
+    period: 'Aug 2024 - Nov 2025',
     description:
-      'Developed and maintained web applications for diverse clients. Worked across the full stack with React, Node.js, and various database technologies to deliver tailored software solutions.',
+      'Built cross-platform mobile apps with React Native and web apps with React for an enterprise resource management platform. Implemented real-time chat with WebSockets, GPS vehicle tracking, reminder systems, and media galleries. Worked in an Agile/Scrum environment with code reviews and daily stand-ups.',
   },
   {
     type: 'education',
@@ -28,7 +28,7 @@ export const experience = [
     company: 'University of Rijeka,Faculty of Informatics and Digital Technologies',
     period: '2020 - 2025',
     description:
-      'Studied core computer science fundamentals including algorithms, data structures, software engineering, and web technologies. Practiced competitive programming on Codeforces, solving problems in graph theory, dynamic programming, and combinatorics. Completed bachelor\'s thesis on modern front-end development practices.',
+      'Studied algorithms, data structures, database design, and software engineering. Practiced competitive programming on Codeforces. Built a full-stack mobile app for university equipment rental as bachelor\'s thesis using React Native, Node.js, and PostgreSQL.',
   },
 ];
 
